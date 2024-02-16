@@ -36,5 +36,5 @@ def func_jpt(word, index):
         result_word = word.title()
     return result_word
 
-result = [func_jpt(word,index) for word, index in enumerate(my_string.split())]
+result = [func_jpt(word,index) for index, word in enumerate(my_string.split())]
 print("-".join(result))
