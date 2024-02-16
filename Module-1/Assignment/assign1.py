@@ -11,7 +11,7 @@ def reverse_words(sentence):
     return reversed_sentence
 
 # Example usage
-sample_sentence = input("enter a sentence")
+sample_sentence = input("enter a sentence: ")
 reversed_result = reverse_words(sample_sentence)
 
 print(f"Original sentence: {sample_sentence}")
